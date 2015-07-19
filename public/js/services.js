@@ -28,6 +28,7 @@ angular.module('pokedex.services',[])
 					deferred.resolve(results[0]);
 				}else{
 					deferred.reject();
+					$window.location.href = "/#/404/"
 				}
 			});
 			return deferred.promise

@@ -7,7 +7,12 @@
         templateUrl: 'partials/pokemon-name.html'
       };
     })
-
+    .directive('pokemonCard', function () {
+      return {
+        restrict: 'E',
+        templateUrl: 'partials/pokemon-card.html'
+      };
+    })
     .directive('pokemonImage', function () {
       return {
         restrict: 'E',

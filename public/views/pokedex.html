@@ -4,9 +4,8 @@
  </h1> 
     </div>
 
-    <div class="pokemon" ng-repeat="pokemon in pokemons">
-        <pokemon-name></pokemon-name>
-         <a href="/#pokemon/{{pokemon.name|normalize}}"><pokemon-image></pokemon-image></a>
-        <pokemon-type></pokemon-type>
-    </div>
+<div class="pokemon" ng-repeat="pokemon in pokemons">
+     <pokemon-card></pokemon-card>
+</div>
+
 </div>

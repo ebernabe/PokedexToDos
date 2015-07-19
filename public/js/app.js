@@ -21,6 +21,10 @@
 				controller:'PokemonController'
 				
 			})
+			.when("/404/",{
+				templateUrl:"views/404.html",
+				controller:'PokemonController'
+			})
 			.when("/:type",{
 				templateUrl:"views/pokedex.html",
 				controller:'PokedexController'

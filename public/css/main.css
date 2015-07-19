@@ -145,5 +145,7 @@ body {
    text-align:  center;
 }
 
-
+div.tab-content_node{
+  display: none;
+}
 
