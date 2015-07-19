@@ -8,7 +8,7 @@
 
 * Change TabsController to use $scope and implement isActive function to remove the logic in the template (check)
 
-* Order comments by date, new comments must go first
+* Order comments by date, new comments must go first (check)
 
 * Implement a search form by name (with automatic preview)
 

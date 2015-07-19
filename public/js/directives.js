@@ -64,6 +64,7 @@
               },
             controller: function ($scope) {
               $scope.comments = pokemonService.getComments($scope.name);
+              
               $scope.comment = {};
               $scope.show = false;
     

@@ -50,7 +50,8 @@ angular.module('pokedex.services',[])
 
  	function saveComment(pokemon, comment){
  			var comments = getComments(pokemon);
- 			comments.push(comment);
+ 			comments.unshift(comment);
+ 			// comments[comments.length] = comment;
  			localStorage.setItem(pokemon,JSON.stringify(comments));
 
  	}
